@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+
+
+/*----------------------------------Register-------------------------------*/
+body{
+    background-color: rgb(71, 192, 240);
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+  }
+  
+  
+  .button-38 {
+    background-color: #7ac913f5;
+    border: 1px solid #7ac913f5;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-family: "Akzidenz Grotesk BQ Medium", -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    outline: none;
+    outline: 0;
+    padding: 10px 25px;
+    text-align: center;
+    transform: translateY(0);
+    transition: transform 150ms, box-shadow 150ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 100%;
+  }
+  
+  .button-38:hover {
+    box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
+    transform: translateY(-2px);
+  }
+  
+  @media (min-width: 768px) {
+    .button-38 {
+      padding: 10px 30px;
+    }
+  }
+  
+  .Form_Register{
+    border-radius: 6px;
+    margin: auto;
+    width: 70%;
+    padding: 1rem;
+    display: 'flex';
+    justify-content: center;
+    flex-wrap: 'wrap';
+    background-color: white;
+    /* border: 2px solid rgb(132, 134, 21); */
+  }
+  
+  .Form_Register p{
+    color: rgb(68, 68, 68);
+  }
+  
+  .form__input{
+    border: 1.5px solid rgb(212, 212, 212);
+    border-radius: 4px;
+    padding: 12px;
+    margin-bottom: 10px;
+    width: 94%;
+  }
+  
+  .Form{
+    padding: 1rem;
+    /* border: 2px solid rgb(59, 13, 165); */
+  }
+  
+  .Form p span {
+    color: rgb(50, 173, 221);
+    font-size: 12px;
+    
+  }
+  
+  .Form p{
+    font-size: 12px;
+  }
+  
+
+  .image_header{
+    text-align: center;
+    /* border: 2px solid rgb(59, 13, 165); */
+  }
+  
+  .image_header h2{
+    color: rgb(48, 180, 233);
+    font-size: 20px;
+    font-family: 'Prompt', sans-serif;
+  }
+  
+  .image_header h2 span{
+    color: rgb(105, 105, 105);
+    font-size: 18px;
+    font-family: 'Prompt', sans-serif;
+  }
+  
+  .image_header img{
+    margin-top: 10px;
+    object-fit: cover;
+    width: 40%
+  }
+  
+  .form_text{
+    text-align: center;
+  }
+  
+  .animate-bottom{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+
+  .FlowAccount_Co{
+    /* border: 2px solid rgb(59, 13, 165); */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: #fff;
+    font-size: 12px;
+    margin: auto;
+    width: 100%;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+
+  .FlowAccount_Co_Reginter p span{
+    margin-left: 13px;
+  }
+
+
+
+/*--------------- Responsive Web Design - Media Queries --------------------*/
+@media screen and (max-width: 750px) {
+
+    body{
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        justify-content: center;
+    }
+
+    .Form_Register{
+        margin: auto;
+        width: 70%;
+        padding: 1rem;
+        display: 'flex';
+        justify-content: center;
+        flex-wrap: 'wrap';
+        background-color: white;
+        /* border: 2px solid rgb(132, 134, 21); */
+      }
+
+      .image_header img{
+        margin-top: 10px;
+        object-fit: cover;
+        position: relative;
+        width: 60%
+      }
+
+      .FlowAccount_Co{
+        color: rgb(51, 51, 51);
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: auto;
+        width: 65%;
+      }
+
+      .FlowAccount_Co span{
+        margin-left: 10px;
+      }
+}
+
+
+@media screen and (max-width: 700px) {
+    .FlowAccount_Co p{
+        margin: auto;
+        width: 65%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+}
+
+
+@media screen and (max-width: 650px) {
+    .FlowAccount_Co p{
+        margin: auto;
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+}
+
+@media screen and (max-width: 528px) {
+    .FlowAccount_Co p {
+        margin: auto;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+}

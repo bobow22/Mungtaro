@@ -1,9 +1,9 @@
 import { Button, Form, Input } from 'antd';
-import '../Login & Register/Register.css';
+import '../Login & Register/Login.css';
 // import axios from 'axios';
 
 
-export default function Register() {
+export default function Login() {
     
     const [form] = Form.useForm();
 
@@ -15,12 +15,12 @@ export default function Register() {
        
        return (<>
 
-                {/* --------------------Form Register----------------- */}
-                <div className="Form_Register">
+                {/* --------------------Form Login----------------- */}
+                <div className="Form_Login">
 
                         <div className="image_header">
                             <img src="https://flowaccount.com/blog/wp-content/uploads/2017/01/e27-flowaccount-logo.png" />
-                            <h2>สมัครใช้งานฟรี!<br/><span>ใช้งานได้ครบทุกฟังก์ชั่น ไม่ต้องใช้บัตรเครดิต</span></h2>
+                            <h2>ล๊อกอินเข้าสู่ระบบ</h2>
                         </div>
 
                     
@@ -56,47 +56,24 @@ export default function Register() {
                                 <Input className='form__input' placeholder="กรอกรหัสผ่านอย่างน้อย 8 ตัวอักษร"/>
                             </Form.Item>
 
-                            <p>รหัสผ่านควรมีทั้งตัวอักษร ตัวเลข และสัญลักษณ์ผสมกัน</p>
-
-                            <Form.Item
-                                    name="Phone_number"
-                                    label="เบอร์ของผู้สมัครใช้งาน*"
-                                    labelCol ={{ span: 8 }}
-                                    wrapperCol ={{ span: 16 }}
-                                    rules={[
-                                    {
-                                    required: true,
-                                    },
-                                    ]}
-                                    style={{fontSize: '15px'}}
-                                    >
-                                    <Input className='form__input' placeholder="09XXXXXXXX"/>
-                            </Form.Item >
-                            
-
-                            <div className='form_text'>
-                                <p>ในการสมัครใช้งาน ฉันได้ยอมรับ</p>
-                                <p><span>ประกาศความเป็นส่วนตัวสําหรับลูกค้าและผู้รับบริการ</span> และ <span>เงื่อนไขการใช้บริการ</span></p>
-                            </div>
-                            
 
                             <Form.Item wrapperCol={{ offset: 8, span: 16 }}>
-                                <Button type="primary" htmlType="submit" className="button-38">
-                                    ทดลองใช้งานฟรี
+                                <Button type="primary" htmlType="submit" className="button-37" style={{marginTop: '30px'}}>
+                                    เข้าสู่ระบบ
                                 </Button>
 
                             </Form.Item>
 
                             <div className="form_text" style={{marginBottom: '25px'}}> 
-                                <p>มีบัญชีกับเราแล้ว? <span>ล็อกอินเข้าสู่ระบบ</span></p>
+                                <p>ยังไม่มีบัญชีกับเรา? <span>สมัครใช้งานฟรี</span></p>
                             </div>
                             
                                     <hr/>
 
                             <div className="form_text" style={{marginTop: '25px'}}>
-                                <p>หรือสมัครโดยใช้บัญชีอื่นๆ</p>
+                                <p>หรือเข้าสู่ระบบโดยล็อกอินผ่าน</p>
                             </div>    
-                
+
                             <div class="animate-bottom">
                                 <button class="button Facebook">
                                     <span>Continue with Facebook</span>
