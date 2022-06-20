@@ -1,6 +1,6 @@
-import './App.css';
 import Register from'./Login & Register/Register'
 import Login from'./Login & Register/Login'
+import Cash_invoice from './Component/Cash_invoice'
 import { 
   BrowserRouter as Router,
   Route,
@@ -8,12 +8,15 @@ import {
 } 
 from "react-router-dom";
 
-//Hi Wowww !
+
+
+
 function App() {
   return (<Router>
 
           <Routes>
-              <Route exact path="/" element={<Register/>} />
+              <Route exact path="/" element={<Cash_invoice />} />
+              <Route exact path="/Register" element={<Register/>} />
               <Route exact path="/Login" element={<Login/>} />
           </Routes>
 

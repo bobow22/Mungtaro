@@ -1,0 +1,25 @@
+
+
+
+
+.Header{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.Content{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.PDF{
+    background-color: rgb(159, 159, 165);
+}
+
+.Sub_Footer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
